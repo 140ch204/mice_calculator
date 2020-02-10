@@ -1,6 +1,6 @@
 class Mouse:
-  ### Make request on the RNA Api ### 
-  # https://entreprise.data.gouv.fr/api_doc_rna
+  # Class to Calculate the evolution of nomber of mice
+
     def __init__(self):
         ### Initialization method ###
 
@@ -20,12 +20,14 @@ class Mouse:
         self.update_population()
 
     def __str__(self):
+        # Method to display the number of mice
         return str(self.population_current)
 
+
     def update_population(self):
+        # Method to display in a hash the population afetr 3 weeks
 
         self.population_current = {
-
 
           'Semaines' : (self.turn-1)*3,
           'nb_male_plus6' : self.nb_male_plus6 ,
@@ -46,7 +48,7 @@ class Mouse:
 
         }
 
-        return 1
+        return self.population_current
 
     def next_turn(self):
 
@@ -73,16 +75,4 @@ class Mouse:
 
         self.update_population()
 
-
-
-
-
         return "ok"
-
-
-    def total(self):
-
-        print() 
-
-
-#Vous achetez un couple de souris.Une souris produit une moyenne de 8 souriceaux par portée.La gestation dure 3 semaines. Elle est capable de se reproduire à l’âge de 6 semaines. Vous voulez maintenir votre population à 550 individus. a) Au bout de combien de temps, vous alarmez-vous ? b) Vous ne pouvez pas tuer les souris, quel processus mettez-vous en place ? Justifiez vos réponses aux deux questions

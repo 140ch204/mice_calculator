@@ -3,7 +3,7 @@ from mouse import *
 mycolo = Mouse()
 
 mycolo.next_turn()
-print(mycolo.population_current)
+print(mycolo)
 
 mycolo.next_turn()
 print(mycolo.population_current)
@@ -19,7 +19,6 @@ print(mycolo.population_current)
 
 mycolo.next_turn()
 print(mycolo.population_current)
-
 
 mycolo.next_turn()
 print(mycolo.population_current)
