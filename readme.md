@@ -1,6 +1,6 @@
-# Mouse calutator: 
+# Mouse calcutator: 
 
-Problème : 
+# Problème : 
 Vous achetez un couple de souris.
 Une souris produit une moyenne de 8 souriceaux par portée.
 
