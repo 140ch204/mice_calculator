@@ -22,7 +22,9 @@ Script écris en Python3 :
 > $ from mouse import * 
 >
 > $ mycolo = Mouse()
+>
 > $ mycolo.next_turn()
+>
 > print(mycolo)
 >
 
